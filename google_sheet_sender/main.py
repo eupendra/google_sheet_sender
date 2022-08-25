@@ -30,8 +30,9 @@ def run_spider(spider_to_run):
 
 def update_gsheet():
     df = pd.read_csv(csv_name, na_filter=False)
+    df['price'] = df['price'].str.replace('£', '').astype(float)
     df['Last_Updated'] = timestamp
-
+    print(df.head())
     gc = gspread.service_account(filename=CREDENTIALS_FILE)
     workbook = gc.open_by_url(GSHEET_URL)
 
@@ -49,8 +50,8 @@ def update_gsheet():
 
 if __name__ == '__main__':
     spider = BooksSpider
-    timestamp = datetime.datetime.now().strftime('%d-%b-%y')
+    timestamp = datetime.datetime.now().strftime('%Y/%m/%d')
     csv_name = f'{spider.name}_{timestamp}.csv'
     run_spider(spider)
-    # update_gsheet()
+    update_gsheet()
     print('Done!')

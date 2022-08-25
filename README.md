@@ -54,8 +54,8 @@ pip install -r requirements.txt
 
 ### Key libraries
 
-- Scrapy for scanning
-- Pandas for massaging raw data
+- Scrapy for scraping
+- Pandas for cleaning up raw data
 - Gspread for updating Google sheet
 
 ### Additional configuration
