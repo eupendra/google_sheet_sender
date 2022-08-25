@@ -1,5 +1,16 @@
 # Scrapy to Google Sheets
-
+<!-- TOC -->
+* [Scrapy to Google Sheets](#scrapy-to-google-sheets)
+  * [What does it do](#what-does-it-do)
+  * [How to run](#how-to-run)
+    * [Authentication](#authentication)
+      * [Enable API access](#enable-api-access)
+      * [Create a service account](#create-a-service-account)
+    * [The basics](#the-basics)
+    * [Key libraries](#key-libraries)
+    * [Additional configuration](#additional-configuration)
+    * [cron settings](#cron-settings)
+<!-- TOC -->
 ## What does it do
 
 Sends scrapy output to Google Sheet
