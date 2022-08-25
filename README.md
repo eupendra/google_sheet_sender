@@ -1,4 +1,4 @@
-# Scrapy to CSV
+# Scrapy to Google Sheets
 
 ## What does it do
 
