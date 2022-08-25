@@ -1,4 +1,3 @@
 gspread
 pandas
-scraper-helper
 Scrapy
