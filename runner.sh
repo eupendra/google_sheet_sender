@@ -1,6 +1,5 @@
-cd /Users/upendra.singhai/data/code/broken_link_checker
-# Path: broken_link_checker.py
+cd /Users/Shared/CODE/scrapy_gspread
 source venv/bin/activate
-cd link_checker
+cd scrapy_gspread
 python3 main.py
 deactivate
