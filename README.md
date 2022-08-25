@@ -9,7 +9,7 @@ Sends scrapy output to Google Sheet
 
 #### Enable API Access
 
-1. Head to Google Developers Console and create a new project (or select the one you already have).
+1. Head to [Google Developers Console](https://console.cloud.google.com/) and create a new project (or select the one you already have).
 2. In the box labeled `Search for APIs and Services` search for `Google Drive API` and enable it.
 3. In the box labeled `Search for APIs and Services`, search for `Google Sheets API` and enable it.
 
