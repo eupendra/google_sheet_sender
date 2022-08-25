@@ -61,8 +61,7 @@ pip install -r requirements.txt
 
 ### Additional configuration
 
-- set the following in `main.py` file
--
+Set the following in [main.py](./google_sheet_sender/main.py) file
 
 ```python
 WORKSHEET_NAME = 'results'
